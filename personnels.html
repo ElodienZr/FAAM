@@ -147,99 +147,51 @@
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
+                                    <thead class="thead-dark">
                                         <tr>
-                                            <th>ANARANA SY FANAMPINY</th>
+                                            <th>SARY</th>
+                                            <th>ANARANA</th>
                                             <th>TAONA</th>
                                             <th>KARAZANA</th>
-                                            <th>TOERANA FONENANA</th>
                                             <th>LAHARANA FINDAY</th>
-                                            <th>N°CIN</th>
-                                            <th>DATY NANAOVANA AZY</th>
-                                            <th>MANANA KAONTY M'VOla/Orange money/Airtel Money /Hafa</th>
-                                            <th>FINOANA</th>
-                                            <th>FIAVIANA</th>
-                                            <th>TENIM-PARITRA VOAFEHY</th>
-                                            <th>FADY </th>
-                                            <th>MIHINANA PARAKY</th>                                            
-                                            <th>MISOTRO TOAKA</th>
-                                            <th>TRAIKEFA SY FAHAIZAMANAO</th>
-                                            <th>PARLE FRANCAIS</th>
-                                            <th>PERMIS DE CONDUIRE</th>
-                                            <th>SOKAJY</th>
-                                            <th>MISY ARETINA MITAIZA</th>
-                                            <th>ANDRAIKITRA NY MPIASA</th>
+                                            <th>ACTION</th>
                                         </tr>
                                     </thead>
-                                    <tfoot>
+                                    <tfoot class="bg-primary text-white">
                                         <tr>
-                                            <th>ANARANA SY FANAMPINY</th>
+                                            <th>SARY</th>
+                                            <th>ANARANA</th>
                                             <th>TAONA</th>
                                             <th>KARAZANA</th>
-                                            <th>TOERANA FONENANA</th>
                                             <th>LAHARANA FINDAY</th>
-                                            <th>N°CIN</th>
-                                            <th>DATY NANAOVANA AZY</th>
-                                            <th>MANANA KAONTY M'VOla/Orange money/Airtel Money /Hafa</th>
-                                            <th>FINOANA</th>
-                                            <th>FIAVIANA</th>
-                                            <th>TENIM-PARITRA VOAFEHY</th>
-                                            <th>FADY </th>
-                                            <th>MIHINANA PARAKY</th>
-                                            <th>MISOTRO TOAKA</th>
-                                            <th>TRAIKEFA SY FAHAIZAMANAO</th>
-                                            <th>PARLE FRANCAIS</th>
-                                            <th>PERMIS DE CONDUIRE</th>
-                                            <th>SOKAJY</th>
-                                            <th>MISY ARETINA MITAIZA</th>
-                                            <th>ANDRAIKITRA NY MPIASA</th>
+                                            <th>ACTION</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
                                         <tr>
+                                            <td><img src="img/avatar4.png" alt="Photo" width="60" height="60"></td>
                                             <td>RAFARASOA Sitrakiniaina Josia Florentine</td>
                                             <td>58</td>
                                             <td>Vavy</td>
-                                            <td>LOT III F95 Mahamasina Antananarivo</td>
                                             <td>034 21 053 80</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>M'VOla</td>
-                                            <td>Katolika</td>
-                                            <td>Amboasary</td>
-                                            <td>Merina</td>
-                                            <td>Malote </td>
-                                            <td>Tsia</td>
-                                            <td>Tsia</td>
-                                            <td>Bacc Technique</td>
-                                            <td>Eny</td>
-                                            <td>Tsia</td>
-                                            <td></td>
-                                            <td>Tsia</td>
-                                            <td>Mitsandraka harena ankibony tany</td>
+                                            <td><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#detailModal1">Détail</button></td>
                                         </tr>
                                         <tr>
+                                            <td><img src="img/avatar4.png" alt="Photo Rafarasoa" width="60" height="60"></td>
                                             <td>MIHANMINIRINA Hanitriniaina</td>
                                             <td>39</td>
                                             <td>Vavy</td>
-                                            <td>LOT VS 99 Ambolikandrina</td>
                                             <td>034 33 791 52</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>M'VOla</td>
-                                            <td>Katolika</td>
-                                            <td>Merina</td>
-                                            <td>Merina, Betsimisaraka, Sud est, avaratra</td>
-                                            <td>Kisoa </td>
-                                            <td>Tsia</td>
-                                            <td>Tsia</td>
-                                            <td>Fizarana Tosika hoan'ny zaza ts ampy sakafo</td>
-                                            <td>Eny</td>
-                                            <td>Tsia</td>
-                                            <td></td>
-                                            <td>Tsia</td>
-                                            <td>Miasa resaka projet Humanitaire</td>
-                                        </tr>                                        
+                                            <td><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#detailModal2">Détail</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/avatar4.png" alt="Photo Rafarasoa" width="60" height="60"></td>
+                                            <td>THOLERA R.</td>
+                                            <td>39</td>
+                                            <td>Lahy</td>
+                                            <td>034 33 801 12</td>
+                                            <td><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#detailModal3">Détail</button></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -252,11 +204,153 @@
             </div>
             <!-- End of Main Content -->
 
+            <!-- Modal Détail -->
+            <div class="modal fade" id="detailModal1" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel1">Détails du personnel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="img/avatar4.png" alt="Photo" class="img-fluid rounded-circle" width="150">
+                            <h6 class="mt-2">RAFARASOA Sitrakiniaina Josia Florentine</h6>
+                            <h6 class="mt-2"><b>034 21 053 80</b></h6>
+                        </div>
+                        <div class="col-md-8">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>Taona :</strong> 58</li>
+                                <li class="list-group-item"><strong>Karazana :</strong> Vavy</li>
+                                <li class="list-group-item"><strong>Toerana fonenana :</strong> LOT III F95 Mahamasina Antananarivo</li>
+                                <li class="list-group-item"><strong>CIN :</strong> 201 045 008 126</li>
+                                <li class="list-group-item"><strong>Date nanaovana azy :</strong> 12 / 12 / 08</li>
+                                <li class="list-group-item"><strong>Kaonty :</strong> Orange Money</li>
+                                <li class="list-group-item"><strong>Finoana :</strong> Katolika</li>
+                                <li class="list-group-item"><strong>Fiaviana :</strong> Amboasary</li>
+                                <li class="list-group-item"><strong>Tenim-paritra :</strong> Merina</li>
+                                <li class="list-group-item"><strong>Fady :</strong> Malote</li>
+                                <li class="list-group-item"><strong>Mihinana paraky :</strong> Tsia</li>
+                                <li class="list-group-item"><strong>Misotro toaka :</strong> Eny</li>
+                                <li class="list-group-item"><strong>Traikefa sy fahaizamanao:</strong> Bacc Technique</li>
+                                <li class="list-group-item"><strong>Parle Français :</strong> Eny</li>
+                                <li class="list-group-item"><strong>Permis de conduire :</strong> Eny</li>
+                                <li class="list-group-item"><strong>Sokajy :</strong> Agent</li>
+                                <li class="list-group-item"><strong>Aretina Mitaiza :</strong> Tsia</li>
+                                <li class="list-group-item"><strong>Andraikitra:</strong> Mitsandraka harena ankibony tany</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="detailModal2" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel1">Détails du personnel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="img/avatar4.png" alt="Photo" class="img-fluid rounded-circle" width="150">
+                                <h6 class="mt-2">THOLERA R.</h6>
+                                <h6 class="mt-2"><b>034 33 801 12</b></h6>
+                            </div>
+                            <div class="col-md-8">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><strong>Taona :</strong> 58</li>
+                                    <li class="list-group-item"><strong>Karazana :</strong> Lahy</li>
+                                    <li class="list-group-item"><strong>Toerana fonenana :</strong> LOT III F95 Mahamasina Antananarivo</li>
+                                    <li class="list-group-item"><strong>CIN :</strong> 201 045 008 126</li>
+                                    <li class="list-group-item"><strong>Date nanaovana azy :</strong> 12 / 12 / 08</li>
+                                    <li class="list-group-item"><strong>Kaonty :</strong> Orange Money</li>
+                                    <li class="list-group-item"><strong>Finoana :</strong> Katolika</li>
+                                    <li class="list-group-item"><strong>Fiaviana :</strong> Amboasary</li>
+                                    <li class="list-group-item"><strong>Tenim-paritra :</strong> Merina</li>
+                                    <li class="list-group-item"><strong>Fady :</strong> Malote</li>
+                                    <li class="list-group-item"><strong>Mihinana paraky :</strong> Tsia</li>
+                                    <li class="list-group-item"><strong>Misotro toaka :</strong> Eny</li>
+                                    <li class="list-group-item"><strong>Traikefa sy fahaizamanao:</strong> Bacc Technique</li>
+                                    <li class="list-group-item"><strong>Parle Français :</strong> Eny</li>
+                                    <li class="list-group-item"><strong>Permis de conduire :</strong> Eny</li>
+                                    <li class="list-group-item"><strong>Sokajy :</strong> Agent</li>
+                                    <li class="list-group-item"><strong>Aretina Mitaiza :</strong> Tsia</li>
+                                    <li class="list-group-item"><strong>Andraikitra:</strong> Mitsandraka harena ankibony tany</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="detailModal3" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel1">Détails du personnel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="img/avatar4.png" alt="Photo" class="img-fluid rounded-circle" width="150">
+                            <h6 class="mt-2">RAFARASOA Sitrakiniaina Josia Florentine</h6>
+                            <h6 class="mt-2"><b>038 45 120 26</b></h6>
+                        </div>
+                        <div class="col-md-8">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>Taona :</strong> 58</li>
+                                <li class="list-group-item"><strong>Karazana :</strong> Vavy</li>
+                                <li class="list-group-item"><strong>Toerana fonenana :</strong> LOT III F95 Mahamasina Antananarivo</li>
+                                <li class="list-group-item"><strong>CIN :</strong> 201 045 008 126</li>
+                                <li class="list-group-item"><strong>Date nanaovana azy :</strong> 12 / 12 / 08</li>
+                                <li class="list-group-item"><strong>Kaonty :</strong> Orange Money</li>
+                                <li class="list-group-item"><strong>Finoana :</strong> Katolika</li>
+                                <li class="list-group-item"><strong>Fiaviana :</strong> Amboasary</li>
+                                <li class="list-group-item"><strong>Tenim-paritra :</strong> Merina</li>
+                                <li class="list-group-item"><strong>Fady :</strong> Malote</li>
+                                <li class="list-group-item"><strong>Mihinana paraky :</strong> Tsia</li>
+                                <li class="list-group-item"><strong>Misotro toaka :</strong> Eny</li>
+                                <li class="list-group-item"><strong>Traikefa sy fahaizamanao:</strong> Bacc Technique</li>
+                                <li class="list-group-item"><strong>Parle Français :</strong> Eny</li>
+                                <li class="list-group-item"><strong>Permis de conduire :</strong> Eny</li>
+                                <li class="list-group-item"><strong>Sokajy :</strong> Agent</li>
+                                <li class="list-group-item"><strong>Aretina Mitaiza :</strong> Tsia</li>
+                                <li class="list-group-item"><strong>Andraikitra:</strong> Mitsandraka harena ankibony tany</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+  
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>Copyright &copy; FAAM 2025</span>
                     </div>
                 </div>
             </footer>
